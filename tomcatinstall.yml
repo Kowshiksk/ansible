@@ -1,0 +1,9 @@
+---
+- name: Install Tomcat
+  hosts: 54.163.212.73 
+  become: yes             
+  tasks:
+    - name: Install Tomcat
+      yum:
+        name: tomcat
+        state: latest  
