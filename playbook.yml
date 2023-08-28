@@ -1,0 +1,10 @@
+---
+- name: Copy file
+  hosts: 54.163.212.73
+  become: yes 
+
+  tasks:
+    - name: Copy a file to the remote host
+      copy:
+        src: /home/ec2-user/prod/file3.sh
+        dest: /home/ec2-user/dir
