@@ -1,6 +1,6 @@
 ---
 - name: Copy file
-  hosts: 54.163.212.73
+  hosts: 3.94.76.213
   become: yes 
 
   tasks:
